@@ -3,9 +3,9 @@ import re
 
 import pandas as pd
 
-data_name_list = ["crsp_name", "tri_us_name"]
-read_directory = "/Users/haoranliu/Downloads/match_tri_crsp/raw_data/"
-save_directory = "/Users/haoranliu/Downloads/match_tri_crsp/cleaned/"
+data_name_list = ["file1", "file2"]
+read_directory = "dir1/"
+save_directory = "dir2/"
 
 def clean_data(data_name):
     print(f"clean {data_name}")
@@ -56,7 +56,7 @@ def clean_data(data_name):
             list_new_name[i] = newname
 
     # map through a dictionary
-    with open('/Users/haoranliu/match/Trademark/Clean_name/Clean/dict_char_replace.json', 'r') as f:
+    with open('dir/dict_char_replace.json', 'r') as f:
         dict_replace = json.load(f)
 
     list_new_name_temp = []
