@@ -3,7 +3,7 @@ import re
 
 import pandas as pd
 
-data_name_list = ["file1", "file2"]
+data_name_list = ["a", "b"]
 read_directory = "dir1/"
 save_directory = "dir2/"
 
