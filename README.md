@@ -20,7 +20,7 @@ Thirdly, match two cleaned databases using match.py.
 
 This step uses tf-idf to calculate cosine similarities, see https://github.com/Bergvca/string_grouper.
 
-You can also use other string, matching algorithms see https://github.com/jamesturk/jellyfish.
+You can also use other string matching algorithms, see https://github.com/jamesturk/jellyfish.
 
 ### *Step 4: Manually Check
 
