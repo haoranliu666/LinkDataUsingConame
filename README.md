@@ -20,6 +20,8 @@ Thirdly, match two cleaned databases using match.py.
 
 This step uses tf-idf to calculate cosine similarities, see https://github.com/Bergvca/string_grouper.
 
+You can also use other string, matching algorithms see https://github.com/jamesturk/jellyfish.
+
 ### *Step 4: Manually Check
 
 Fourthly, use match.do rebuild the matched data. Fuzzy matched data contains wrongly matched data, you might want to manually pick out the wrong pairs.
