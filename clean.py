@@ -56,7 +56,7 @@ def clean_data(data_name):
             list_new_name[i] = newname
 
     # map through a dictionary
-    with open('dir/dict_char_replace.json', 'r') as f:
+    with open('dir/dictionary.json', 'r') as f:
         dict_replace = json.load(f)
 
     list_new_name_temp = []
